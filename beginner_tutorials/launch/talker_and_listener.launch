@@ -1,0 +1,4 @@
+<launch>
+    <node name="talker" pkg="beginner_tutorials" type="xd_talker.py" output="screen"  respawn="false" launch-prefix="xterm -e" />
+    <node name="listener" pkg="beginner_tutorials" type="xd_listener.py" output="screen" respawn="false" launch-prefix="xterm -e" />
+</launch>

@@ -1,0 +1,3 @@
+<launch>
+    <node name="server" pkg="beginner_tutorials" type="xd_add2int_srv.py" output="screen" />
+</launch>
